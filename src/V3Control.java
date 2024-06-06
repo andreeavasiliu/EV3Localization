@@ -35,11 +35,13 @@ public class V3Control {
     public static void main(String[] args) {
         V3Control v3Control = new V3Control();
         v3Control.run();
+        
         v3Control.cleanup();
     }
 
     public V3Control() {
         pilot = getPilot();
+        
         Brick brick = BrickFinder.getDefault();
         posePro = new OdometryPoseProvider(pilot);
         map = new Mapping(50);
