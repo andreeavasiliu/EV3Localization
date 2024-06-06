@@ -1,4 +1,3 @@
-
 /**
  * Storage object for observation data
  * @author Oliver Palmer
